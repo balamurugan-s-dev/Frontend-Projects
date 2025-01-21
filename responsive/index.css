@@ -96,6 +96,7 @@ header{
 }
 
 .dropdown_menu.open{
+    display: block;
     height: 240px;
 }
 
@@ -111,7 +112,6 @@ header{
     display: flex;
     justify-content: center;
 }
-
 
 @media(max-width: 992px){
     .navbar .links,
@@ -129,12 +129,11 @@ header{
 }
 
 @media(max-width: 576px){
-    .navbar.dropdown_menu{
+    .dropdown_menu{
         left: 2rem;
         width: unset;
     }
 }
-
 
 .content{
     height: calc(100vh - 60px);
